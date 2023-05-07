@@ -3,7 +3,7 @@ from PIL import Image
 from streamlit.components.v1 import html
 
 # Load image
-image = Image.open("C:/Users/lenovo/Desktop/OSB.jpg")
+image = Image.open("OSB-ROTATOR-05.png")
 
 # Page 1 - Company Overview
 def page_company():
