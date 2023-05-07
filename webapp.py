@@ -175,7 +175,7 @@ def page_ml():
 def main():
     st.set_page_config(page_title='My Streamlit App', page_icon=':student:', layout='wide')
     st.sidebar.title('Homepage')
-    pages = {'Company Overview': page_company, 'Tableau Dashboard': page_dashboard, 'Machine Learning Model': page_ml}
+    pages = {'Company Overview': page_company, 'Students Attrition Dashboard': page_dashboard, 'Predicting Performance Model': page_ml}
     page = st.sidebar.selectbox('Go to', options=list(pages.keys()))
     pages[page]()
 
